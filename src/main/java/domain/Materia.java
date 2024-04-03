@@ -30,8 +30,4 @@ public class Materia {
     }
 
     public ArrayList<Materia> correlativas;
-
-    boolean esCorrelativa(Materia materia){
-        return this.getCorrelativas().contains(materia);
-    }
 }
